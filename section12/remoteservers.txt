@@ -1,0 +1,2 @@
+192.168.43.206	root	Krish@123	date	uptime 	free -m
+192.168.43.39	ansible	Krish@123	whoami

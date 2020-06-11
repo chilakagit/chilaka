@@ -1,0 +1,7 @@
+name="first shell script"
+
+file=/etc/passwd
+
+x=20
+
+y=40

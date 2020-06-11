@@ -1,0 +1,18 @@
+● httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2020-05-09 06:20:41 IST; 3h 31min ago
+     Docs: man:httpd(8)
+           man:apachectl(8)
+ Main PID: 2047 (httpd)
+   Status: "Total requests: 0; Current requests/sec: 0; Current traffic:   0 B/sec"
+    Tasks: 6
+   CGroup: /system.slice/httpd.service
+           ├─2047 /usr/sbin/httpd -DFOREGROUND
+           ├─2120 /usr/sbin/httpd -DFOREGROUND
+           ├─2123 /usr/sbin/httpd -DFOREGROUND
+           ├─2124 /usr/sbin/httpd -DFOREGROUND
+           ├─2125 /usr/sbin/httpd -DFOREGROUND
+           └─2126 /usr/sbin/httpd -DFOREGROUND
+
+May 09 06:20:39 naveenhost.example.com systemd[1]: Starting The Apache HTTP Server...
+May 09 06:20:41 naveenhost.example.com systemd[1]: Started The Apache HTTP Server.

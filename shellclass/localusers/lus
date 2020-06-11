@@ -1,0 +1,16 @@
+#!/bin/bash
+ 
+#create username
+ 
+read -p 'Enter the username to create: ' USERNAME
+
+read -p 'Enter the comments for the created user: ' COMMENT
+
+read -p 'Enter the password for newly created user: ' PASSWORD
+
+useradd -c "${COMMENT}" -m ${USERNAME}
+
+echo  ${PASSWORD} | passwd --stdin ${USERNAME}
+ 
+passwd -e ${USERNAME}
+ 
